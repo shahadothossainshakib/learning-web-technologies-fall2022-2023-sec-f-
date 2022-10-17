@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Login
+        </legend>
+        <form action="">
+            <table>
+                <tr><td> User name:<input type="text" name="name" value="" placeholder="Enter user name"</td></tr>
+                <tr><td>Password:<input type="password" name="password"value="" placeholder="Enter password"></td></tr>
+                <tr><td><input type="checkbox">Remember Me</td></tr>
+                <tr><td><button type="submit">Submit</button></td></tr>
+                <tr><td><a href="lab 04.html">Forgot Password</a> </td> </tr></table></form>
+            </table>
+    </fieldset>
+    
+</body>
+</html>
+
+<?php
+$username= $_post ['username'];
+$password= $_post ['password'];
+if($username ==||$password==""|| $username<=2|| $password>=8)
+{
+    echo "invalid";
+}
+else
+{
+    echo "good"
+}
+?>
